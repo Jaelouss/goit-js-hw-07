@@ -1,6 +1,7 @@
 const allItems = document.querySelectorAll('.item');
 const allHeaders = document.querySelectorAll('h2');
 const allLists = document.querySelectorAll('.item > ul');
+
 const listCounts = Array.from(allLists).map(
   (list) => list.querySelectorAll('li').length
 );
