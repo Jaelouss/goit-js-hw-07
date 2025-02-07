@@ -31,7 +31,7 @@ const addImage = images.map((imageData) => {
 
 li.style.display = 'flex';
 
-  img.style.object-fit = 'contain'
+  img.style.object-fit = 'cover'
   img.src = imageData.url;
   img.alt = imageData.alt;
   img.width = 300;
