@@ -29,6 +29,9 @@ const addImage = images.map((imageData) => {
   const li = document.createElement('li');
   const img = document.createElement('img');
 
+li.style.display = 'flex';
+
+  img.style.object-fit = 'contain'
   img.src = imageData.url;
   img.alt = imageData.alt;
   img.width = 300;
